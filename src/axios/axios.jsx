@@ -7,4 +7,5 @@ fetch처럼 네트워크 요청을 보내고 응답을 받는데 문법 자체�
  yarn add axios로 설치
 */
 
-const API_KEY = '82776dd4e021405937c471b1f995902b'
+const API_KEY = process.env.REACT_APP_API_KEY;
+//process.env = node상에서 전역변수로 선언
